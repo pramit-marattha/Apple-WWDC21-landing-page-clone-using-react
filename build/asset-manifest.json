@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af0c877f.chunk.css",
+    "main.js": "/static/js/main.c103845c.chunk.js",
+    "main.js.map": "/static/js/main.c103845c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33d829fc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33d829fc.js.map",
+    "static/js/2.51555667.chunk.js": "/static/js/2.51555667.chunk.js",
+    "static/js/2.51555667.chunk.js.map": "/static/js/2.51555667.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.af0c877f.chunk.css.map": "/static/css/main.af0c877f.chunk.css.map",
+    "static/js/2.51555667.chunk.js.LICENSE.txt": "/static/js/2.51555667.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/FontsFree-Net-SFProDisplay-Regular.1e1c0e29.ttf",
+    "static/media/hero-landscape-large-2048x1152.71d3b013.mp4": "/static/media/hero-landscape-large-2048x1152.71d3b013.mp4",
+    "static/media/wwdc.30b6a879.svg": "/static/media/wwdc.30b6a879.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33d829fc.js",
+    "static/js/2.51555667.chunk.js",
+    "static/css/main.af0c877f.chunk.css",
+    "static/js/main.c103845c.chunk.js"
+  ]
+}
