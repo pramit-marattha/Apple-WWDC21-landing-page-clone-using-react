@@ -1,0 +1,75 @@
+.footer__container {
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 70%;
+  /* background: #f1f1f1; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.footer__message {
+  display: flex;
+  margin: 20px 0;
+  font-size: 0.8rem;
+  color: grey;
+}
+.footer__message p {
+  margin-top: 3px;
+}
+.footer__message i {
+  margin-right: 10px;
+}
+
+.foot__logo {
+  display: inline-block;
+  /* margin: 0 0.5em 0.2em 0; */
+  width: 100px;
+  height: 21px;
+  vertical-align: middle;
+}
+
+.horizontal__line {
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.footer__contact {
+  color: #7f8c8d;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.footer__contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+.footer__contact a:hover {
+  cursor: pointer;
+}
+.footer__copyright {
+  margin-top: -2rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+.footer__copyright ul {
+  display: flex;
+  list-style: none;
+}
+.footer__copyright ul li {
+  margin: -5px 10px;
+}
+.footer__copyright ul li a {
+  text-decoration: none;
+  color: #7f8c8d;
+}
+.footer__copyright ul li a:hover {
+  text-decoration: none;
+}
+.line__vertical {
+  height: 15px;
+  width: 1px;
+  background: #bdc3c7;
+}
