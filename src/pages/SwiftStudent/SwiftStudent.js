@@ -2,13 +2,15 @@ import React from "react";
 
 // components
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import SwiftStudentFooter from "../../components/SwiftStudentFooter";
+import SwiftStudentBody from "../../components/SwiftStudentBody";
 
 const SwiftStudent = () => {
   return (
     <>
       <Navbar />
-      <Footer />
+      <SwiftStudentBody />
+      <SwiftStudentFooter />
     </>
   );
 };
