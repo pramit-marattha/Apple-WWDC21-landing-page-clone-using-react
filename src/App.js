@@ -1,18 +1,17 @@
 import "./styles/App.css";
 
-//components
-import Navbar from "./components/Navbar";
-import BodySection from "./components/BodySection";
-import Footer from "./components/Footer";
+// Pages
+import Overview from "./pages/Overview";
+import SwiftStudent from "./pages/SwiftStudent";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="mobile">
-        <Navbar />
-        <BodySection />
-        <Footer />
-      </div>
+      <Switch>
+        <Route path="/" component={Overview} exact />
+        <Route path="/swift-student-challenge" component={SwiftStudent} />
+      </Switch>
     </>
   );
 }

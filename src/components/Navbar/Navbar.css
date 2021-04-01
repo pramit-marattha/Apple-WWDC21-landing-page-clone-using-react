@@ -93,6 +93,7 @@
   width: 1px;
   height: 1px; */
   color: grey;
+  white-space: nowrap;
 }
 
 .menu__item__second {

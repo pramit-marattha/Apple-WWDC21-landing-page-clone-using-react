@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import wwdcImg from "../../assets/wwdc.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -18,12 +19,13 @@ const Navbar = () => {
             </a>
           </h2>
           <div className="navbar__menu">
-            <a href="http://localhost:3000/" className="menu__item">
-              Overview
-            </a>
-            <a href="http://localhost:3000/" className="menu__item__second">
-              Swift Student Challenge
-            </a>
+            <Link to="/" className="menu__item">
+              <a>Overview</a>{" "}
+            </Link>
+
+            <Link to="/swift-student-challenge" className="menu__item__second">
+              <a>Swift Student Challenge</a>{" "}
+            </Link>
           </div>
         </div>
       </div>
