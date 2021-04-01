@@ -10,13 +10,15 @@ const Navbar = () => {
         <div className="navbar__background"></div>
         <div className="navbar__content">
           <h2 className="navbar__title">
-            <a href="http://localhost:3000/" className="navbar__title__logo">
-              <img
-                className="navbar__logo"
-                src={wwdcImg}
-                alt="wwdc 2021 logo"
-              />
-            </a>
+            <Link to="/">
+              <a className="navbar__title__logo">
+                <img
+                  className="navbar__logo"
+                  src={wwdcImg}
+                  alt="wwdc 2021 logo"
+                />
+              </a>
+            </Link>
           </h2>
           <div className="navbar__menu">
             <Link to="/" className="menu__item">
