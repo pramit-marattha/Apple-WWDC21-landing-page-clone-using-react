@@ -18,3 +18,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@media only screen and (max-width: 1080px) {
+  * {
+    display: none;
+  }
+}

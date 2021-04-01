@@ -8,9 +8,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
-      <BodySection />
-      <Footer />
+      <div className="mobile">
+        <Navbar />
+        <BodySection />
+        <Footer />
+      </div>
     </>
   );
 }
